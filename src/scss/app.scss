@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    background: #282828;
+    color: #edeff5;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: inherit;
+    font-weight: 500;
+}
+
+.year {
+    background: #404040;
+    border-color: #111;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+footer {
+    border-color: #404040;
+}
+
+@media (max-width: 700px) {
+    .albums {
+        flex-direction: column;
+    }
+}

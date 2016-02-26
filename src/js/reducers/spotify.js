@@ -1,0 +1,70 @@
+const initialState = {
+    albums: [{
+        uri: '0AVPusXNzK1jWwefBiPJ5I',
+        year: 2015
+    }, {
+        uri: '76FXHQhTuT4QMIxfL09gX8',
+        year: 2012
+    }, {
+        uri: '5uP9oyMK5lpzbB7K6UeT3X',
+        year: 2015
+    }, {
+        uri: '0XTAmejG8F97wF5MWoVbaY',
+        year: 2013
+    }, {
+        uri: '2nXJkqkS1tIKIyhBcFMmwz',
+        year: 2009
+    }, {
+        uri: '12ExNn0hx85F8UNzoKCyCD',
+        year: 2013
+    }, {
+        uri: '7n3QJc7TBOxXtlYh4Ssll8',
+        year: 2011
+    }, {
+        uri: '0rIkPxL8Uv4zb78irBAuwS',
+        year: 2013
+    }, {
+        uri: '3tjP8SLyGerhquO9eMOlWy',
+        year: 2011
+    }, {
+        uri: '02Zb13fM8k04tRwTfMUhe9',
+        year: 2011
+    }, {
+        uri: '0m6UfRUX9vH51WsRaPgw1S',
+        year: 2012
+    }, {
+        uri: '5i90ZRThEcUxoiq9ihDeFA',
+        year: 2010
+    }, {
+        uri: '6LBiuhK7PZKjVXyMfPxPoh',
+        year: 2010
+    }, {
+        uri: '748dZDqSZy6aPXKcI9H80u',
+        year: 2012
+    }, {
+        uri: '1xlyG4VH7qEx1tNVXDtcmr',
+        year: 2010
+    }, {
+        uri: '3akffmhOpN4F45bXeW8BfO',
+        year: 2009
+    }, {
+        uri: '6Q74zSpv7KOXMZYDqrH6lW',
+        year: 2009
+    }, {
+        uri: '7BZ81dThqcxbFTXKY36Oek',
+        year: 2015
+    }, {
+        uri: '5iLwH8imGCQvvGQuAvp0vr',
+        year: 2014
+    }, {
+        uri: '2w9QEpndpkUoQ2dglFHmY3',
+        year: 2014
+    }, {
+        uri: '49qPGOSoeIjG7bLP28bBLU',
+        year: 2014
+    }]
+}
+
+export default function spotifyState(state = initialState) {
+    return state
+}
