@@ -23027,7 +23027,7 @@ var Albums = function Albums(_ref) {
 
     return _react2.default.createElement(
         'div',
-        null,
+        { className: 'list' },
         Object.keys(albums).sort(function (a, b) {
             return a + b;
         }).map(function (year) {

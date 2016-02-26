@@ -4,7 +4,7 @@ import Embed from './embed.jsx'
 
 const Albums = ({albums}) => {
     return (
-        <div>
+        <div className="list">
             {Object.keys(albums).sort((a, b) => a + b).map(year => {
                 return <div key={year}>
                     <div className="flex justify-center year p2 border-top border-bottom">

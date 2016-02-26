@@ -26,6 +26,14 @@ a {
   background: #404040;
   border-color: #111; }
 
+.list {
+  display: flex;
+  flex-direction: column; }
+
+.albums {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto; }
+
 h2 {
   font-weight: 300; }
 
@@ -34,6 +42,8 @@ footer {
 
 @media (max-width: 700px) {
   .albums {
-    flex-direction: column; }
+    flex-direction: column-reverse; }
+  .list {
+    flex-direction: column-reverse; }
   .embed {
     margin-left: 0; } }
