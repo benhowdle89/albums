@@ -1,15 +1,18 @@
 import React from 'react'
 
-const Embed = ({uri}) => {
-    return (
-        <iframe
-            className="embed flex-auto mx4"
-            src={`https://embed.spotify.com/?uri=spotify%3Aalbum%3A${uri}&view=coverart`}
-            width="300"
-            frameBorder="0"
-            allowTransparency="true">
-        </iframe>
-    )
+class Embed extends React.Component {
+
+    render() {
+        return (
+            <iframe
+                className="embed flex-auto mx4"
+                src={`https://embed.spotify.com/?uri=spotify%3Aalbum%3A${this.props.uri}&view=coverart`}
+                width="300"
+                frameBorder="0"
+                allowTransparency="false">
+            </iframe>
+        )
+    }
 }
 
 export default Embed

@@ -17,6 +17,7 @@ html = ReactDOMServer.renderToStaticMarkup(
 var indexFile = __dirname + '/../index.html'
 var data = fs.readFile(indexFile, 'utf8', function(err, data){
     var result = data.replace(/\[REPLACE\]/, html)
+    result = result.replace(/<script src="dist\/js\/bundle.js"><\/script>/, '')
     fs.writeFile(indexFile, result, function(err) {
         if (err) {
             return console.log(err);
