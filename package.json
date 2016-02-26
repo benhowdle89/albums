@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-js": "watchify src/js/app.js -o dist/js/bundle.js -t babelify",
+    "compile-js": "watchify src/js/main.js -o dist/js/bundle.js -t babelify",
     "compile-css": "node-sass -w src/scss/app.scss dist/css/app.css",
     "watch": "npm run compile-css & npm run compile-js",
-    "live-server": "live-server --port=3004"
+    "live-server": "live-server --port=3004",
+    "build": "node etc/build"
   },
   "repository": {
     "type": "git",
